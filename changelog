@@ -1,0 +1,6 @@
+sblim-sfcc (2.2.8-0) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Luiz Costa <me@luizgustavo.pro.br>  Thu, 16 Jun 2022 09:11:02 +0000

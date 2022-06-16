@@ -1,0 +1,1253 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sblim-sfcc
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: https://github.com/kkaempf/sblim-sfcc 
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .deps/libcimcClientXML_la-args.Plo
+           .deps/libcimcClientXML_la-array.Plo
+           .deps/libcimcClientXML_la-cimXmlParser.Plo
+           .deps/libcimcClientXML_la-client.Plo
+           .deps/libcimcClientXML_la-constClass.Plo
+           .deps/libcimcClientXML_la-datetime.Plo
+           .deps/libcimcClientXML_la-enumeration.Plo
+           .deps/libcimcClientXML_la-genericlist.Plo
+           .deps/libcimcClientXML_la-grammar.Plo
+           .deps/libcimcClientXML_la-hashtable.Plo
+           .deps/libcimcClientXML_la-indicationlistener.Plo
+           .deps/libcimcClientXML_la-instance.Plo
+           .deps/libcimcClientXML_la-method.Plo
+           .deps/libcimcClientXML_la-objectpath.Plo
+           .deps/libcimcClientXML_la-parameter.Plo
+           .deps/libcimcClientXML_la-parserUtil.Plo
+           .deps/libcimcClientXML_la-property.Plo
+           .deps/libcimcClientXML_la-qualifier.Plo
+           .deps/libcimcClientXML_la-string.Plo
+           .deps/libcimcClientXML_la-utilFactory.Plo
+           .deps/libcimcClientXML_la-utilHashtable.Plo
+           .deps/libcimcClientXML_la-utilStringBuffer.Plo
+           .deps/libcimcClientXML_la-value.Plo
+           .deps/libcimcclient_la-cimcclient.Plo
+           .deps/libcmpisfcc_la-sfcclient.Plo
+           .gitignore
+           .libs/libcimcClientXML.lai
+           .libs/libcimcClientXML.so.0.0.0
+           .libs/libcimcClientXML_la-args.o
+           .libs/libcimcClientXML_la-array.o
+           .libs/libcimcClientXML_la-cimXmlParser.o
+           .libs/libcimcClientXML_la-client.o
+           .libs/libcimcClientXML_la-constClass.o
+           .libs/libcimcClientXML_la-datetime.o
+           .libs/libcimcClientXML_la-enumeration.o
+           .libs/libcimcClientXML_la-genericlist.o
+           .libs/libcimcClientXML_la-grammar.o
+           .libs/libcimcClientXML_la-hashtable.o
+           .libs/libcimcClientXML_la-indicationlistener.o
+           .libs/libcimcClientXML_la-instance.o
+           .libs/libcimcClientXML_la-method.o
+           .libs/libcimcClientXML_la-objectpath.o
+           .libs/libcimcClientXML_la-parameter.o
+           .libs/libcimcClientXML_la-parserUtil.o
+           .libs/libcimcClientXML_la-property.o
+           .libs/libcimcClientXML_la-qualifier.o
+           .libs/libcimcClientXML_la-string.o
+           .libs/libcimcClientXML_la-utilFactory.o
+           .libs/libcimcClientXML_la-utilHashtable.o
+           .libs/libcimcClientXML_la-utilStringBuffer.o
+           .libs/libcimcClientXML_la-value.o
+           .libs/libcimcclient.a
+           .libs/libcimcclient.lai
+           .libs/libcimcclient.so.0.0.0
+           .libs/libcimcclient_la-cimcclient.o
+           .libs/libcmpisfcc.a
+           .libs/libcmpisfcc.lai
+           .libs/libcmpisfcc.so.1.0.0
+           .libs/libcmpisfcc.so.1.0.0T
+           .libs/libcmpisfcc_la-sfcclient.o
+           AUTHORS
+           Makefile.am
+           NEWS
+           README
+           TEST/.deps/print-types.Po
+           TEST/.deps/show.Po
+           TEST/.deps/test.Po
+           TEST/.deps/test_an.Po
+           TEST/.deps/test_an_2.Po
+           TEST/.deps/test_as.Po
+           TEST/.deps/test_as_2.Po
+           TEST/.deps/test_ci.Po
+           TEST/.deps/test_cpp.Po
+           TEST/.deps/test_di.Po
+           TEST/.deps/test_ec.Po
+           TEST/.deps/test_ecn.Po
+           TEST/.deps/test_ecn_ssl.Po
+           TEST/.deps/test_ei.Po
+           TEST/.deps/test_ein.Po
+           TEST/.deps/test_gc.Po
+           TEST/.deps/test_gi.Po
+           TEST/.deps/test_gp.Po
+           TEST/.deps/test_im1.Po
+           TEST/.deps/test_im2.Po
+           TEST/.deps/test_im3.Po
+           TEST/.deps/test_im4.Po
+           TEST/.deps/test_imos.Po
+           TEST/.deps/test_leak.Po
+           TEST/.deps/test_objectpath.Po
+           TEST/.deps/test_qualifiers.Po
+           TEST/.deps/test_qualifiers2.Po
+           TEST/.deps/test_rf.Po
+           TEST/.deps/test_rfn.Po
+           TEST/.deps/test_si.Po
+           TEST/.deps/test_sp.Po
+           TEST/.deps/test_xq.Po
+           TEST/.deps/v2test_ec.Po
+           TEST/.deps/v2test_ecn.Po
+           TEST/.deps/v2test_ei.Po
+           TEST/.deps/v2test_ein.Po
+           TEST/.deps/v2test_gc.Po
+           TEST/.deps/v2test_im.Po
+           TEST/.deps/v2test_xq_synerr.Po
+           TEST/.libs/test
+           TEST/.libs/test_an
+           TEST/.libs/test_an_2
+           TEST/.libs/test_as
+           TEST/.libs/test_as_2
+           TEST/.libs/test_ci
+           TEST/.libs/test_di
+           TEST/.libs/test_ec
+           TEST/.libs/test_ecn
+           TEST/.libs/test_ecn_ssl
+           TEST/.libs/test_ei
+           TEST/.libs/test_ein
+           TEST/.libs/test_gc
+           TEST/.libs/test_gi
+           TEST/.libs/test_gp
+           TEST/.libs/test_im1
+           TEST/.libs/test_im2
+           TEST/.libs/test_im3
+           TEST/.libs/test_im4
+           TEST/.libs/test_imos
+           TEST/.libs/test_leak
+           TEST/.libs/test_qualifiers
+           TEST/.libs/test_qualifiers2
+           TEST/.libs/test_rf
+           TEST/.libs/test_rfn
+           TEST/.libs/test_si
+           TEST/.libs/test_sp
+           TEST/.libs/test_xq
+           TEST/.libs/v2test_ec
+           TEST/.libs/v2test_ecn
+           TEST/.libs/v2test_ei
+           TEST/.libs/v2test_ein
+           TEST/.libs/v2test_gc
+           TEST/.libs/v2test_im
+           TEST/.libs/v2test_xq_synerr
+           TEST/Makefile.am
+           TEST/print-types
+           TEST/print-types.c
+           TEST/print-types.o
+           TEST/show.h
+           TEST/show.o
+           TEST/test
+           TEST/test.o
+           TEST/test_an
+           TEST/test_an.o
+           TEST/test_an_2
+           TEST/test_an_2.o
+           TEST/test_as
+           TEST/test_as.o
+           TEST/test_as_2
+           TEST/test_as_2.o
+           TEST/test_ci
+           TEST/test_ci.o
+           TEST/test_cpp
+           TEST/test_cpp.cpp
+           TEST/test_cpp.o
+           TEST/test_di
+           TEST/test_di.o
+           TEST/test_ec
+           TEST/test_ec.o
+           TEST/test_ecn
+           TEST/test_ecn.o
+           TEST/test_ecn_ssl
+           TEST/test_ecn_ssl.o
+           TEST/test_ei
+           TEST/test_ei.o
+           TEST/test_ein
+           TEST/test_ein.o
+           TEST/test_gc
+           TEST/test_gc.o
+           TEST/test_gi
+           TEST/test_gi.o
+           TEST/test_gp
+           TEST/test_gp.o
+           TEST/test_im1
+           TEST/test_im1.o
+           TEST/test_im2
+           TEST/test_im2.o
+           TEST/test_im3
+           TEST/test_im3.o
+           TEST/test_im4
+           TEST/test_im4.o
+           TEST/test_imos
+           TEST/test_imos.o
+           TEST/test_leak
+           TEST/test_leak.o
+           TEST/test_qualifiers
+           TEST/test_qualifiers.o
+           TEST/test_qualifiers2
+           TEST/test_qualifiers2.o
+           TEST/test_rf
+           TEST/test_rf.o
+           TEST/test_rfn
+           TEST/test_rfn.o
+           TEST/test_si
+           TEST/test_si.o
+           TEST/test_sp
+           TEST/test_sp.o
+           TEST/test_xq
+           TEST/test_xq.o
+           TEST/v2test_ec
+           TEST/v2test_ec.c
+           TEST/v2test_ec.o
+           TEST/v2test_ecn
+           TEST/v2test_ecn.c
+           TEST/v2test_ecn.o
+           TEST/v2test_ei
+           TEST/v2test_ei.c
+           TEST/v2test_ei.o
+           TEST/v2test_ein
+           TEST/v2test_ein.c
+           TEST/v2test_ein.o
+           TEST/v2test_gc
+           TEST/v2test_gc.o
+           TEST/v2test_im
+           TEST/v2test_im.o
+           TEST/v2test_xq_synerr
+           TEST/v2test_xq_synerr.c
+           TEST/v2test_xq_synerr.o
+           autoconfiscate.sh
+           autom4te.cache/requests
+           autom4te.cache/traces.1
+           backend/cimxml/libcimcClientXML.Versions
+           cimc/libcimcclient.Versions
+           config.h
+           config.h.in
+           configure.ac
+           contributions.txt
+           frontend/cpp/AUTHORS
+           frontend/cpp/CimArray.cpp
+           frontend/cpp/CimArray.h
+           frontend/cpp/CimBase.h
+           frontend/cpp/CimClass.cpp
+           frontend/cpp/CimClass.h
+           frontend/cpp/CimClient.cpp
+           frontend/cpp/CimClient.h
+           frontend/cpp/CimData.cpp
+           frontend/cpp/CimData.h
+           frontend/cpp/CimDateTime.cpp
+           frontend/cpp/CimDateTime.h
+           frontend/cpp/CimEnumeration.cpp
+           frontend/cpp/CimEnumeration.h
+           frontend/cpp/CimInstance.cpp
+           frontend/cpp/CimInstance.h
+           frontend/cpp/CimIterator.cpp
+           frontend/cpp/CimIterator.h
+           frontend/cpp/CimObject.h
+           frontend/cpp/CimObjectPath.cpp
+           frontend/cpp/CimObjectPath.h
+           frontend/cpp/CimStatus.cpp
+           frontend/cpp/CimStatus.h
+           frontend/cpp/CimStaus.h
+           frontend/cpp/CimString.cpp
+           frontend/cpp/CimString.h
+           frontend/cpp/Makefile.am
+           frontend/cpp/NEWS
+           frontend/cpp/README
+           frontend/cpp/config.h.in
+           frontend/cpp/configure.ac
+           frontend/cpp/sblim-sfcc-cpp.spec.in
+           frontend/cpp/sfccPtr.cpp
+           frontend/cpp/sfccPtr.h
+           frontend/cpp/sfccPtrImpl.h
+           frontend/cpp/sfccSPtr.cpp
+           frontend/cpp/sfccSPtr.h
+           frontend/cpp/sfccSPtrImpl.h
+           frontend/cpp/sfccTest.cpp
+           frontend/sfcc/conn.h
+           frontend/sfcc/libcmpisfcc.Versions
+           libcimcClientXML.la
+           libcimcClientXML_la-args.lo
+           libcimcClientXML_la-args.o
+           libcimcClientXML_la-array.lo
+           libcimcClientXML_la-array.o
+           libcimcClientXML_la-cimXmlParser.lo
+           libcimcClientXML_la-cimXmlParser.o
+           libcimcClientXML_la-client.lo
+           libcimcClientXML_la-client.o
+           libcimcClientXML_la-constClass.lo
+           libcimcClientXML_la-constClass.o
+           libcimcClientXML_la-datetime.lo
+           libcimcClientXML_la-datetime.o
+           libcimcClientXML_la-enumeration.lo
+           libcimcClientXML_la-enumeration.o
+           libcimcClientXML_la-genericlist.lo
+           libcimcClientXML_la-genericlist.o
+           libcimcClientXML_la-grammar.lo
+           libcimcClientXML_la-grammar.o
+           libcimcClientXML_la-hashtable.lo
+           libcimcClientXML_la-hashtable.o
+           libcimcClientXML_la-indicationlistener.lo
+           libcimcClientXML_la-indicationlistener.o
+           libcimcClientXML_la-instance.lo
+           libcimcClientXML_la-instance.o
+           libcimcClientXML_la-method.lo
+           libcimcClientXML_la-method.o
+           libcimcClientXML_la-objectpath.lo
+           libcimcClientXML_la-objectpath.o
+           libcimcClientXML_la-parameter.lo
+           libcimcClientXML_la-parameter.o
+           libcimcClientXML_la-parserUtil.lo
+           libcimcClientXML_la-parserUtil.o
+           libcimcClientXML_la-property.lo
+           libcimcClientXML_la-property.o
+           libcimcClientXML_la-qualifier.lo
+           libcimcClientXML_la-qualifier.o
+           libcimcClientXML_la-string.lo
+           libcimcClientXML_la-string.o
+           libcimcClientXML_la-utilFactory.lo
+           libcimcClientXML_la-utilFactory.o
+           libcimcClientXML_la-utilHashtable.lo
+           libcimcClientXML_la-utilHashtable.o
+           libcimcClientXML_la-utilStringBuffer.lo
+           libcimcClientXML_la-utilStringBuffer.o
+           libcimcClientXML_la-value.lo
+           libcimcClientXML_la-value.o
+           libcimcclient.la
+           libcimcclient_la-cimcclient.lo
+           libcimcclient_la-cimcclient.o
+           libcmpisfcc.la
+           libcmpisfcc_la-sfcclient.lo
+           libcmpisfcc_la-sfcclient.o
+           man/man3/CMCIClient.3
+           man/man3/CMCIClientFT.associatorNames.3
+           man/man3/CMCIClientFT.associators.3
+           man/man3/CMCIClientFT.createInstance.3
+           man/man3/CMCIClientFT.deleteInstance.3
+           man/man3/CMCIClientFT.enumClassNames.3
+           man/man3/CMCIClientFT.enumClasses.3
+           man/man3/CMCIClientFT.enumInstanceNames.3
+           man/man3/CMCIClientFT.enumInstances.3
+           man/man3/CMCIClientFT.execQuery.3
+           man/man3/CMCIClientFT.getClass.3
+           man/man3/CMCIClientFT.getInstance.3
+           man/man3/CMCIClientFT.getProperty.3
+           man/man3/CMCIClientFT.invokeMethod.3
+           man/man3/CMCIClientFT.referenceNames.3
+           man/man3/CMCIClientFT.references.3
+           man/man3/CMCIClientFT.setInstance.3
+           man/man3/CMCIClientFT.setProperty.3
+           man/man3/CMPIArgs.3
+           man/man3/CMPIDateTime.3
+           man/man3/CMPIEnumeration.3
+           man/man3/CMPIInstance.3
+           man/man3/CMPIObjectPath.3
+           man/man3/CMPIStatus.3
+           man/man3/CMPIString.3
+           man/man3/CMPIValue.3
+           man/man3/cmciConnect.3
+           setEnv
+           sfcUtil/libsfcUtil.Versions
+           sfcc.spec
+           sfcc.spec.in
+           stamp-h1
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     backend/cimxml/args.c
+           backend/cimxml/array.c
+           backend/cimxml/constClass.c
+           backend/cimxml/datetime.c
+           backend/cimxml/enumeration.c
+           backend/cimxml/instance.c
+           backend/cimxml/method.c
+           backend/cimxml/objectpath.c
+           backend/cimxml/parameter.c
+           backend/cimxml/property.c
+           backend/cimxml/qualifier.c
+           backend/cimxml/value.c
+           frontend/sfcc/native.h
+Copyright: 2003-2006 Intel Corp.
+           2003-2013 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+
+Files:     TEST/test_im1.c
+           TEST/test_im2.c
+           TEST/test_im3.c
+           TEST/test_im4.c
+           backend/cimxml/utilList.h
+           backend/cimxml/utilStringBuffer.h
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+
+Files:     Makefile.in
+           TEST/Makefile.in
+           aclocal.m4
+           configure
+           libtool
+Copyright: 1992-2020 Free Software Foundation, Inc.
+License:   __AUTO_PERMISSIVE__
+ Autogenerated files with permissive licenses.
+
+Files:     backend/cimxml/sfcUtil/hashtable.c
+           backend/cimxml/sfcUtil/hashtable.h
+           sfcUtil/hashtable.c
+           sfcUtil/hashtable.h
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ hashtable implementation.
+
+Files:     TEST/test_ei.c
+           TEST/test_qualifiers.c
+           TEST/test_qualifiers2.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for enumInstances() library API.
+
+Files:     backend/cimxml/sfcUtil/utilStringBuffer.c
+           backend/cimxml/utilStringBuffer.c
+           sfcUtil/utilStringBuffer.c
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ string buffer utility implementation.
+
+Files:     Makefile
+           TEST/Makefile
+Copyright: 1994-2020 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This Makefile.in is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+Files:     autom4te.cache/output.0
+           autom4te.cache/output.1
+Copyright: 1992-2012 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+Files:     backend/cimxml/sfcUtil/utilft.h
+           sfcUtil/utilft.h
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Utilitysupport.
+
+Files:     backend/cimxml/sfcUtil/utilHashtable.c
+           sfcUtil/utilHashtable.c
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Hashtable factory support.
+
+Files:     TEST/test_gc.c
+           TEST/v2test_gc.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for getClass() library API.
+
+Files:     TEST/test_ecn.c
+           TEST/test_ecn_ssl.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for enumClassNames() library API.
+
+Files:     TEST/test_as.c
+           TEST/test_as_2.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for associators() library API.
+
+Files:     backend/cimxml/sfcUtil/utilFactory.c
+           sfcUtil/utilFactory.c
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Encapsulated utility factory implementation.
+
+Files:     TEST/test_an.c
+           TEST/test_an_2.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for associatorNames() library API.
+
+Files:     backend/cimxml/client.c
+           frontend/sfcc/cmci.h
+Copyright: 2005 Intel Corp.
+           2005-2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CMPI Client function tables.
+
+Files:     cimc/cimcft.h
+           frontend/sfcc/cmcift.h
+Copyright: 2005-2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CMCI function tables.
+
+Files:     backend/cimxml/genericlist.c
+           backend/cimxml/genericlist.h
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ list implementation.
+ .
+ Generic List Library
+ .
+ by Keith Pomakis
+ kppomaki@jeeves.uwaterloo.ca
+ .
+ Spring, 1994
+
+Files:     cimc/cimcclient.c
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM C Client Loader Implementation
+
+Files:     cimc/cimcdt.h
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIMC data types.
+
+Files:     backend/cimxml/indicationlistener.c
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:   indication listener implementation
+ Most of the network and http code is taken from sfcb
+ and written by Adrian Schuur / Viktor Mihajlovski
+
+Files:     TEST/v2test_im.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Testing method invocation over SfcbLocal using
+ SFCB's cmpiTestMethodProvider
+
+Files:     TEST/test_si.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for setInstance() library API.
+
+Files:     config.log
+Copyright: 2020 Free Software Foundation, Inc.
+License:   __UNKNOWN__
+ This is free software; see the source for copying conditions.  There is NO
+ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Files:     config.status
+Copyright: 2012 Free Software Foundation, Inc.
+License:   __UNKNOWN__
+ This config.status script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it."
+
+Files:     TEST/show.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test case show functions for instance, object paths
+
+Files:     TEST/test_rf.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for references() library API.
+
+Files:     TEST/test_gp.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for getProperty() library API.
+
+Files:     TEST/test.c
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ General test for library APIs, original from sfcc project. To pass
+ all tests requires additional support to be added to your CIMOM.
+
+Files:     TEST/test_di.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for deleteInstance() library API.
+
+Files:     backend/cimxml/parserUtil.h
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM XML parser helper functions header file
+
+Files:     backend/cimxml/cimXmlParser.c
+Copyright: 2005 Intel Corp.
+           2005-2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM XML lexer for sfcc to be used in connection with cimXmlResp.y.
+
+Files:     TEST/test_imos.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for invokeMethod() library API. Tests OSBase Method Provider
+ Note: This test requires that the cmpi-base provider be installed
+ and registered on your CIMOM.
+
+Files:     TEST/test_ec.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for emnumerateInstances() library API.
+
+Files:     cimc/cimc.h
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM C API Functions for Environment and Client Operations
+
+Files:     backend/cimxml/cimXmlParser.h
+Copyright: 2005 Intel Corp.
+           2005-2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM XML lexer header file for sfcc
+
+Files:     autom4te.cache/traces.0
+Copyright: 2011 Free Software Foundation, Inc.
+License:   __UNKNOWN__
+ This config.lt script is free software; the Free Software Foundation
+ gives unlimited permision to copy, distribute and modify it."
+
+Files:     frontend/sfcc/cmcidt.h
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CMPI data types.
+
+Files:     TEST/test_sp.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for setProperty() library API.
+
+Files:     backend/cimxml/string.c
+Copyright: 2003 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ of casting the internal hdl, store "CMPIString" type in there.
+
+Files:     TEST/test_ein.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for enumInstanceNames() library API.
+
+Files:     frontend/sfcc/cmcimacs.h
+Copyright: 2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CMPI convenious macros.
+
+Files:     TEST/test_leak.c
+Copyright: 2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ Do a set of client library calls that work (abort if not) in
+ a loop, getting the starting value of the heap top before the
+ set and after. Loop over this many times to see if there is
+ any new growth of he heap between iterations, shouldn't be.
+ .
+ Enable verbose (below) for a call by call heap growth report.
+
+Files:     frontend/sfcc/sfcclient.c
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Sfcc Client function tables.
+
+Files:     TEST/test_xq.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for executeQuery() library API.
+
+Files:     TEST/test_rfn.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for referenceNames() library API.
+
+Files:     backend/cimxml/grammar.c
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM XML parser for sfcc to be used in connection with lexer cimXmlParser.c
+
+Files:     TEST/test_objectpath.cpp
+Copyright: 2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for sameCMPIObjectPath() library API.
+ .
+ Test the Clp API class.
+
+Files:     backend/cimxml/nativeCimXml.h
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:   native objects of the cimxml backend
+
+Files:     TEST/test_ci.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for createInstance() library API.
+
+Files:     backend/cimxml/parserUtil.c
+Copyright: 2013 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM XML parser helper functions
+
+Files:     TEST/test_gi.c
+Copyright: 2005 IBM Corp.
+           2005 Intel Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ Test for getInstance() library API.
+
+Files:     backend/cimxml/grammar.h
+Copyright: 2007 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Eclipse Public License from
+ http://www.opensource.org/licenses/eclipse-1.0.php
+ .
+ Description:
+ .
+ CIM XML parser header file
+
+Files:     frontend/cpp/acinclude.m4
+Copyright: 2004-2005 IBM Corp.
+License:   __UNKNOWN__
+ THIS FILE IS PROVIDED UNDER THE TERMS OF THE COMMON PUBLIC LICENSE
+ ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+ CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+ .
+ You can obtain a current copy of the Common Public License from
+ http://www.opensource.org/licenses/cpl1.0.php
+
+Files:     frontend/cpp/INSTALL
+Copyright: 1994-2004 Free Software Foundation, Inc.
+License:   __UNKNOWN__
+ This file is free documentation; the Free Software Foundation gives
+ unlimited permission to copy, distribute and modify it.
+ .
+ Basic Installation
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         .libs/libcimcClientXML.a
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: COPYING
+ Eclipse Public License - v 1.0
+ .
+ THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+ .
+ 1. DEFINITIONS
+ .
+ "Contribution" means:
+ .
+ a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and
+ b) in the case of each subsequent Contributor:
+ .
+ i) changes to the Program, and
+ .
+ ii) additions to the Program;
+ .
+ where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution 'originates' from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.
+ .
+ "Contributor" means any person or entity that distributes the Program.
+ .
+ "Licensed Patents " mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
+ .
+ "Program" means the Contributions distributed in accordance with this Agreement.
+ .
+ "Recipient" means anyone who receives the Program under this Agreement, including all Contributors.
+ .
+ 2. GRANT OF RIGHTS
+ .
+ a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.
+ .
+ b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.
+ .
+ c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient's responsibility to acquire that license before distributing the Program.
+ .
+ d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
+ .
+ 3. REQUIREMENTS
+ .
+ A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:
+ .
+ a) it complies with the terms and conditions of this Agreement; and
+ .
+ b) its license agreement:
+ .
+ i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;
+ .
+ ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;
+ .
+ iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and
+ .
+ iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.
+ .
+ When the Program is made available in source code form:
+ .
+ a) it must be made available under this Agreement; and
+ .
+ b) a copy of this Agreement must be included with each copy of the Program.
+ .
+ Contributors may not remove or alter any copyright notices contained within the Program.
+ .
+ Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.
+ .
+ 4. COMMERCIAL DISTRIBUTION
+ .
+ Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor ("Commercial Contributor") hereby agrees to defend and indemnify every other Contributor ("Indemnified Contributor") against any losses, damages and costs (collectively "Losses") arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
+ .
+ For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
+ .
+ 5. NO WARRANTY
+ .
+ EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
+ .
+ 6. DISCLAIMER OF LIABILITY
+ .
+ EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ .
+ 7. GENERAL
+ .
+ If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+ .
+ If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
+ .
+ All Recipient's rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient's rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient's obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
+ .
+ Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
+ .
+ This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+ .
+ .
