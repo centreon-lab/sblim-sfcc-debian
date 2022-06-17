@@ -8,5 +8,5 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 override_dh_autoreconf:
 
 override_dh_auto_configure:
-	./autoconfiscate.sh && \
+	while [ ! -e configure ]; do ./autoconfiscate.sh; done && \
 	./configure --prefix=/usr
